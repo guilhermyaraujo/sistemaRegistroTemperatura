@@ -1,3 +1,5 @@
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
 public class Main {
     public static void main(String[] args) {
         TermometroGeladeira termometro = new TermometroGeladeira(4.0);
@@ -9,5 +11,6 @@ public class Main {
         System.out.println("Temperatura Atual: " + termometro.getTemperaturaAtual());
         System.out.println("Temperatura Mínima: " + termometro.getTemperaturaMinima());
         System.out.println("Temperatura Máxima: " + termometro.getTemperaturaMaxima());
+        System.out.println("Horário do último registro: " + termometro.getHorarioRegistro());
     }
 }
